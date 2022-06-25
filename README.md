@@ -1,4 +1,4 @@
-# postcss-Programmiz
+# postcss-programmiz
 
 [PostCSS] plugin basic programming features.
 
@@ -21,7 +21,7 @@
 **Step 1:** Install plugin:
 
 ```sh
-npm install --save-dev postcss postcss-Programmiz
+npm install --save-dev postcss postcss-programmiz
 ```
 
 **Step 2:** Check you project for existed PostCSS config: `postcss.config.js`
@@ -36,7 +36,7 @@ and set this plugin in settings.
 ```diff
 module.exports = {
   plugins: [
-+   require('postcss-Programmiz'),
++   require('postcss-programmiz'),
     require('autoprefixer')
   ]
 }
